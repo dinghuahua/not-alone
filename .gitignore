@@ -1,0 +1,7 @@
+node_modules/*
+node/node_modules/*
+pm2/node_modules/*
+reduxProject/node_modules/*
+webpackProject/node_modules/*
+webpackW/node_modules/*
+.idea/*

@@ -46,8 +46,9 @@
         valueEl.innerHTML = store.getState().toString()
     }
     render()
-    {/*      ----store的subscribe方法监听state变化，一旦变化就执行render函数----
-                 store.subscribe方法返回一个函数，调用这个函数就可以解除监听。
+    {/*    store的subscribe方法监听state变化，一旦变化就执行render函数
+           store.subscribe方法返回一个函数，调用这个函数就可以解除监听。
+           store 收到 Action 以后，必须给出一个新的 State，这样 View 才会发生变化。这种 State 的计算过程就叫做 Reduce
     */}
     store.subscribe(render)
     {/*      store的dispatch定义一个操作信息，reducer会将这个信息匹配具体对state的操作*/}

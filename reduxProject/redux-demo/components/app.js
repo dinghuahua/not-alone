@@ -18,7 +18,8 @@ class App extends Component{
     }
 }
 function mapStateToProps(state) {
-    return { product: state.product }
+    console.log(state)
+    return { product: state.defaultReducer.product }
 }
 //连接组件
 export default connect(mapStateToProps)(App)

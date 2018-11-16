@@ -5,10 +5,10 @@ const defaultState = {
 const decrease = (state = defaultState, action) => {
     switch (action.type) {
         case actions.DECREASE_PRODUCT:
-            state.product = --action.product;
+            state.decreaseProduct = --action.product;
             return state
         default:
-            return defaultState
+            return state
     }
 }
 

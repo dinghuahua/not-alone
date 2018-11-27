@@ -22,7 +22,7 @@ function mapState(state) {
 }
 function mapDispatch(dispatch){
     return{
-        onButtonClick:()=>dispatch(actions.buttonClickAction),
+        onButtonClick:()=>console.log(dispatch(actions.buttonClickAction)),
         onChangeText:()=>dispatch(actions.changeTextAction)
     }
 }

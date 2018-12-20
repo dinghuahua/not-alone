@@ -7,7 +7,7 @@ const add = (state, action) =>{
     switch (action.type){
         default:
             return {
-                addId:state.addId+"更改"
+                addId:"更改"
             }
     }
 }

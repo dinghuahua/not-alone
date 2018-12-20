@@ -12,7 +12,7 @@ class AllMemos extends Component{
     render(){
         return(
             <div>
-                <div>AllMemos</div>
+                <div>AllMemos22</div>
             </div>
         )
     }
